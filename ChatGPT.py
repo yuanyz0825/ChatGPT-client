@@ -2,7 +2,7 @@ import tkinter as tk
 import openai
 from collections import deque  # 加入deque版本号
 
-#openai.api_key = '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'
+#openai.api_key = 'sk-SZMxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxbkFJgyPp9EgtB0Nr6E7QtXpc'
 openai.api_key='替换自己的key'
 history = deque(maxlen=10)  # 新增处
 
